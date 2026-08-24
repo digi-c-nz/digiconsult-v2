@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoBase = "/digiconsult.-v2";
+const repoBase = "/digiconsult-v2";
 
 const nextConfig: NextConfig = {
   output: "export",
