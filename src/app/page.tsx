@@ -17,12 +17,10 @@ export default function HomePage() {
             Navigating the latest industry technology and AI pathways.
           </p>
           <p className="lede">
-            DigiConsult is my solo practice. I work with New Zealand businesses
-            where I already have domain — especially financial services and
-            insurance — and I stay on the work from first conversation through a
-            system people can actually run. That includes shipping products
-            when that is the right answer, and helping firms take up new tools
-            without losing control of data and process.
+            DigiConsult is my consultancy firm. I work with Kiwi businesses, in
+            areas where I already have domain expertise — especially financial
+            services, AI and insurance — and I am focused on client goals from
+            first conversation through to the system people are running.
           </p>
           <p className="proof-label">Two products already in market.</p>
           <div className="card-grid">

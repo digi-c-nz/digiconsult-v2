@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s · DigiConsult",
   },
   description:
-    "Get AI past your compliance officer. A one-person practice for regulated New Zealand firms.",
+    "Building business systems for New Zealand firms - navigating the latest industry technology and AI pathways.",
   icons: { icon: "/favicon.svg" },
 };
 

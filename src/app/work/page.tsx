@@ -23,8 +23,8 @@ export default function WorkPage() {
               work.
             </p>
             <p>
-              I built it end to end. It is live in open beta — new users get a
-              free trial. Public site:{" "}
+              I built it end to end. It is live for trades business owners - new
+              users can start a free trial any time. Public site:{" "}
               <a href="https://tuizee.com" rel="noreferrer">
                 tuizee.com
               </a>
