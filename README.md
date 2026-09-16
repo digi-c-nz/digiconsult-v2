@@ -2,7 +2,7 @@
 
 Marketing site for DigiConsult. Next.js App Router, TypeScript, static export.
 
-Work happens on pull requests. Do not point this repo at the live domain until a human clears a cutover. There is no CNAME in this repository.
+Work happens on pull requests. Custom domain cutover (DNS + GitHub Pages UI) is a separate human step. `public/CNAME` is `digiconsult.co.nz`.
 
 ## Stack
 
@@ -10,7 +10,7 @@ Work happens on pull requests. Do not point this repo at the live domain until a
 - `output: 'export'` (real HTML per route)
 - `images.unoptimized: true`
 - `trailingSlash: true`
-- `basePath` and `assetPrefix` set to `/digiconsult-v2` so a GitHub project Pages preview works. Take both off when a custom domain is attached later.
+- Custom domain cutover: `basePath` and `assetPrefix` removed so the static export serves at `/`.
 - No Vercel, no backend, no trackers, no auth.
 
 ## Local
@@ -19,7 +19,7 @@ Work happens on pull requests. Do not point this repo at the live domain until a
 npm install && npm run dev
 ```
 
-Dev server: http://localhost:3000/digiconsult-v2/
+Dev server: http://localhost:3000/
 
 ```sh
 npm run build
