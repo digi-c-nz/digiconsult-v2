@@ -14,8 +14,7 @@ export default function AboutPage() {
         <p>
           DigiConsult is Aaron. I am a trained industrial and systems engineer
           with seventeen years in financial services. I am a director in an NZ
-          insurance business, and I also build products: Tuizee is live, and
-          DataPro is in preview with agencies.
+          insurance business, and I also build products: Tuizee is live.
         </p>
         <p>
           A lot of my work has been helping organisations take up technology
