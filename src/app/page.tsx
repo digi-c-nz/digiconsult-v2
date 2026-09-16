@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "DigiConsult",
   description:
-    "DigiConsult builds business systems for New Zealand firms — products and the work around them. Tuizee and AgenSee.",
+    "Building business systems for New Zealand firms - navigating the latest industry technology and AI pathways.",
 };
 
 export default function HomePage() {
@@ -12,26 +12,35 @@ export default function HomePage() {
     <main id="main">
       <section className="hero">
         <div className="hero-inner">
-          <h1 className="claim">I build the systems NZ firms actually run.</h1>
+          <h1 className="claim">Building business systems for New Zealand firms.</h1>
           <p className="thesis">
-            Solo DigiConsult. Products and the work around them — end to end.
+            Navigating the latest industry technology and AI pathways.
           </p>
           <p className="lede">
-            I work with New Zealand businesses where I already have domain,
-            especially financial services and insurance. When the job is to
-            ship something real — not a slide deck — that is the practice.
+            DigiConsult is my solo practice. I work with New Zealand businesses
+            where I already have domain — especially financial services and
+            insurance — and I stay on the work from first conversation through a
+            system people can actually run. That includes shipping products
+            when that is the right answer, and helping firms take up new tools
+            without losing control of data and process.
           </p>
-          <p className="proof-label">Two products I have already built.</p>
+          <p className="proof-label">Two products already in market.</p>
           <div className="card-grid">
             <Link href="/work/" className="card">
               <span className="eyebrow">Live</span>
               <h2>Tuizee</h2>
-              <p>Job communication for New Zealand trades businesses.</p>
+              <p>
+                Job communication for New Zealand trades — team,
+                subcontractors, and customers in one place.
+              </p>
             </Link>
             <Link href="/work/" className="card">
               <span className="eyebrow">Live</span>
               <h2>AgenSee</h2>
-              <p>Admin and productivity software for insurance agencies.</p>
+              <p>
+                Admin and productivity software for New Zealand insurance
+                agencies.
+              </p>
             </Link>
           </div>
           <div className="cta-row">
