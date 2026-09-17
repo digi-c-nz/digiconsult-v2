@@ -19,7 +19,7 @@ export default function HomePage() {
           <p className="lede">
             DigiConsult is my consultancy firm. I work with Kiwi businesses, in
             areas where I already have domain expertise — especially financial
-            services, AI and insurance — and I am focused on client goals from
+            services, AI and insurance — and I am focused on business goals from
             first conversation through to the system people are running.
           </p>
           <p className="proof-label">Two products already in market.</p>
