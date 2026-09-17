@@ -2,17 +2,21 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Start",
-  description: "Write to DigiConsult at info@digiconsult.co.nz.",
+  description:
+    "Start a conversation with DigiConsult — business systems for Kiwi firms. Email info@digiconsult.co.nz.",
 };
 
 export default function StartPage() {
   return (
     <main id="main" className="page">
       <div className="page-inner prose">
-        <h1>Write to me.</h1>
+        <h1>Let’s have a conversation.</h1>
         <p>
-          A sentence on what is already in use, and what you need a decision
-          on, is enough. I read every note.
+          Tell me about your business and what your vision looks like for
+          future growth or organisation goals — a system optimised for the
+          digital age, bespoke industry technology, AI pathways you may want to
+          navigate, or a key decision you need clarity on. A short message is
+          enough — I personally read every one.
         </p>
         <a
           className="mailto"
